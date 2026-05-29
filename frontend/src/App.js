@@ -10,8 +10,8 @@ function App() {
 
     try {
       const response = await fetch(
-        `http://127.0.0.1:8000/add?a=${num1}&b=${num2}`
-      );
+  `https://khushboo-fastapi-new123-c5f6dpd3h6axhfa6.southeastasia-01.azurewebsites.net/add?a=${num1}&b=${num2}`
+   );
 
       const data = await response.json();
 
